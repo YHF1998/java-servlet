@@ -12,5 +12,6 @@ public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext context = this.getServletContext();
         context.setAttribute("name", "测试");
+        resp.getWriter().println("hello");
     }
 }
