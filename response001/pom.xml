@@ -4,15 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-
     <parent>
         <groupId>com.getdream</groupId>
         <artifactId>java-project-web</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
-    <artifactId>servlet001</artifactId>
+    
+    <artifactId>response001</artifactId>
     <packaging>war</packaging>
+
+    <name>response001 Maven Webapp</name>
+    <!-- FIXME change it to the project's website -->
+    <url>http://www.example.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -43,7 +46,7 @@
     </dependencies>
 
     <build>
-        <finalName>servlet001</finalName>
+        <finalName>response001</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
