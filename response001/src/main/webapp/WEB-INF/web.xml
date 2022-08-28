@@ -5,5 +5,22 @@
          version="4.0"
          metadata-complete="true">
 
+    <servlet>
+        <servlet-name>download</servlet-name>
+        <servlet-class>com.getdream.servlet.ResponseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>download</servlet-name>
+        <url-pattern>/download</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>captcha</servlet-name>
+        <servlet-class>com.getdream.servlet.ImageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>captcha</servlet-name>
+        <url-pattern>/captcha</url-pattern>
+    </servlet-mapping>
 
 </web-app>
