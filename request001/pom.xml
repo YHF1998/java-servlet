@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+
     <parent>
         <groupId>com.getdream</groupId>
         <artifactId>java-project-web</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    
-    <artifactId>response001</artifactId>
+    <artifactId>request001</artifactId>
     <packaging>war</packaging>
 
     <properties>
@@ -26,7 +26,7 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -39,10 +39,11 @@
             <artifactId>javax.servlet.jsp-api</artifactId>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
 
     <build>
-        <finalName>response001</finalName>
+        <finalName>request001</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
